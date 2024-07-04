@@ -1,0 +1,32 @@
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_13 (Conv2D)          (None, 31, 98, 24)        1824      
+                                                                 
+ batch_normalization_16 (Ba  (None, 31, 98, 24)        96        
+ tchNormalization)                                               
+                                                                 
+ activation_1 (Activation)   (None, 31, 98, 24)        0         
+                                                                 
+ conv2d_14 (Conv2D)          (None, 14, 47, 36)        21636     
+                                                                 
+ conv2d_15 (Conv2D)          (None, 5, 22, 48)         43248     
+                                                                 
+ conv2d_16 (Conv2D)          (None, 3, 20, 64)         27712     
+                                                                 
+ flatten_3 (Flatten)         (None, 3840)              0         
+                                                                 
+ dense_12 (Dense)            (None, 100)               384100    
+                                                                 
+ dense_13 (Dense)            (None, 50)                5050      
+                                                                 
+ dense_14 (Dense)            (None, 10)                510       
+                                                                 
+ dense_15 (Dense)            (None, 1)                 11        
+                                                                 
+=================================================================
+Total params: 484187 (1.85 MB)
+Trainable params: 484139 (1.85 MB)
+Non-trainable params: 48 (192.00 Byte)
+_________________________________________________________________

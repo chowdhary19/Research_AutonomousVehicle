@@ -1,0 +1,7 @@
+Model Evaluation Report
+-----------------------
+Validation Loss: 0.029876360669732094
+Mean Absolute Error (MAE): 0.24169803747272517
+Mean Squared Error (MSE): 0.10531073574543541
+Root Mean Squared Error (RMSE): 0.32451615637042697
+
